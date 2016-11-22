@@ -7,9 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FTImagePicker.h"
+#import "DetailViewController.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<FTImagePickerViewControllerDelegate, UIViewControllerPreviewingDelegate, DetailViewControllerDelegate>
+@property (weak, nonatomic) IBOutlet UIImageView *imageView;
+@property (strong, nonatomic) PHAsset *asset;
+@property (strong, nonatomic) UIImage *originalImage;
+@property (strong, nonatomic) UILongPressGestureRecognizer *longPressGesture;
 
 
+- (void) openImagePicker;
+- (IBAction)loadImageBtnTapped:(id)sender;
 @end
-

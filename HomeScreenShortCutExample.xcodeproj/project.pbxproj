@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E20A6751DDD5DA0007892CF /* FTAlbumLIstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E20A6691DDD5DA0007892CF /* FTAlbumLIstViewController.m */; };
+		4E20A6761DDD5DA0007892CF /* FTDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E20A66B1DDD5DA0007892CF /* FTDetailView.m */; };
+		4E20A6771DDD5DA0007892CF /* FTImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E20A66D1DDD5DA0007892CF /* FTImagePicker.m */; };
+		4E20A6781DDD5DA0007892CF /* FTImagePickerAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E20A66E1DDD5DA0007892CF /* FTImagePickerAssets.xcassets */; };
+		4E20A6791DDD5DA0007892CF /* FTImagePickerCells.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E20A6701DDD5DA0007892CF /* FTImagePickerCells.m */; };
+		4E20A67A1DDD5DA0007892CF /* FTImagePickerStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E20A6711DDD5DA0007892CF /* FTImagePickerStoryBoard.storyboard */; };
+		4E20A67B1DDD5DA0007892CF /* FTImagePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E20A6731DDD5DA0007892CF /* FTImagePickerViewController.m */; };
+		4E20A67C1DDD5DA0007892CF /* WorkingProcess in Resources */ = {isa = PBXBuildFile; fileRef = 4E20A6741DDD5DA0007892CF /* WorkingProcess */; };
+		4E20A6811DDD7A15007892CF /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E20A6801DDD7A15007892CF /* DetailViewController.m */; };
+		4E20A6891DDDC0F5007892CF /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E20A6881DDDC0F5007892CF /* NotificationCenter.framework */; };
+		4E20A68D1DDDC0F5007892CF /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E20A68C1DDDC0F5007892CF /* TodayViewController.m */; };
+		4E20A6901DDDC0F5007892CF /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E20A68E1DDDC0F5007892CF /* MainInterface.storyboard */; };
+		4E20A6941DDDC0F5007892CF /* HomeScreenShortCutExampleWidget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4E20A6861DDDC0F5007892CF /* HomeScreenShortCutExampleWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		4EE300E01DDC03EF0076DCC4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE300DF1DDC03EF0076DCC4 /* main.m */; };
 		4EE300E31DDC03EF0076DCC4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE300E21DDC03EF0076DCC4 /* AppDelegate.m */; };
 		4EE300E61DDC03EF0076DCC4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE300E51DDC03EF0076DCC4 /* ViewController.m */; };
@@ -16,7 +29,55 @@
 		4EE300F11DDC03EF0076DCC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EE300EF1DDC03EF0076DCC4 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		4E20A6921DDDC0F5007892CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EE300D31DDC03EF0076DCC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E20A6851DDDC0F5007892CF;
+			remoteInfo = HomeScreenShortCutExampleWidget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4E20A6981DDDC0F5007892CF /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4E20A6941DDDC0F5007892CF /* HomeScreenShortCutExampleWidget.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		4E20A6681DDD5DA0007892CF /* FTAlbumLIstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTAlbumLIstViewController.h; sourceTree = "<group>"; };
+		4E20A6691DDD5DA0007892CF /* FTAlbumLIstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTAlbumLIstViewController.m; sourceTree = "<group>"; };
+		4E20A66A1DDD5DA0007892CF /* FTDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTDetailView.h; sourceTree = "<group>"; };
+		4E20A66B1DDD5DA0007892CF /* FTDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTDetailView.m; sourceTree = "<group>"; };
+		4E20A66C1DDD5DA0007892CF /* FTImagePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTImagePicker.h; sourceTree = "<group>"; };
+		4E20A66D1DDD5DA0007892CF /* FTImagePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTImagePicker.m; sourceTree = "<group>"; };
+		4E20A66E1DDD5DA0007892CF /* FTImagePickerAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = FTImagePickerAssets.xcassets; sourceTree = "<group>"; };
+		4E20A66F1DDD5DA0007892CF /* FTImagePickerCells.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTImagePickerCells.h; sourceTree = "<group>"; };
+		4E20A6701DDD5DA0007892CF /* FTImagePickerCells.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTImagePickerCells.m; sourceTree = "<group>"; };
+		4E20A6711DDD5DA0007892CF /* FTImagePickerStoryBoard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FTImagePickerStoryBoard.storyboard; sourceTree = "<group>"; };
+		4E20A6721DDD5DA0007892CF /* FTImagePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTImagePickerViewController.h; sourceTree = "<group>"; };
+		4E20A6731DDD5DA0007892CF /* FTImagePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTImagePickerViewController.m; sourceTree = "<group>"; };
+		4E20A6741DDD5DA0007892CF /* WorkingProcess */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = WorkingProcess; sourceTree = "<group>"; };
+		4E20A67D1DDD678A007892CF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = HomeScreenShortCutExample/README.md; sourceTree = "<group>"; };
+		4E20A67F1DDD7A15007892CF /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		4E20A6801DDD7A15007892CF /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		4E20A6861DDDC0F5007892CF /* HomeScreenShortCutExampleWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = HomeScreenShortCutExampleWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E20A6881DDDC0F5007892CF /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		4E20A68B1DDDC0F5007892CF /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
+		4E20A68C1DDDC0F5007892CF /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
+		4E20A68F1DDDC0F5007892CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		4E20A6911DDDC0F5007892CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4ED8BB001DDE8E750005E7A4 /* HomeScreenShortCutExampleWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HomeScreenShortCutExampleWidget.entitlements; sourceTree = "<group>"; };
+		4ED8BB011DDE8ED10005E7A4 /* HomeScreenShortCutExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HomeScreenShortCutExample.entitlements; sourceTree = "<group>"; };
 		4EE300DB1DDC03EF0076DCC4 /* HomeScreenShortCutExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeScreenShortCutExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EE300DF1DDC03EF0076DCC4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4EE300E11DDC03EF0076DCC4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -31,6 +92,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		4E20A6831DDDC0F5007892CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E20A6891DDDC0F5007892CF /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4EE300D81DDC03EF0076DCC4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -41,11 +110,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4E20A6671DDD5DA0007892CF /* FTImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				4E20A6681DDD5DA0007892CF /* FTAlbumLIstViewController.h */,
+				4E20A6691DDD5DA0007892CF /* FTAlbumLIstViewController.m */,
+				4E20A66A1DDD5DA0007892CF /* FTDetailView.h */,
+				4E20A66B1DDD5DA0007892CF /* FTDetailView.m */,
+				4E20A66C1DDD5DA0007892CF /* FTImagePicker.h */,
+				4E20A66D1DDD5DA0007892CF /* FTImagePicker.m */,
+				4E20A66E1DDD5DA0007892CF /* FTImagePickerAssets.xcassets */,
+				4E20A66F1DDD5DA0007892CF /* FTImagePickerCells.h */,
+				4E20A6701DDD5DA0007892CF /* FTImagePickerCells.m */,
+				4E20A6711DDD5DA0007892CF /* FTImagePickerStoryBoard.storyboard */,
+				4E20A6721DDD5DA0007892CF /* FTImagePickerViewController.h */,
+				4E20A6731DDD5DA0007892CF /* FTImagePickerViewController.m */,
+				4E20A6741DDD5DA0007892CF /* WorkingProcess */,
+			);
+			path = FTImagePicker;
+			sourceTree = "<group>";
+		};
+		4E20A6871DDDC0F5007892CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E20A6881DDDC0F5007892CF /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4E20A68A1DDDC0F5007892CF /* HomeScreenShortCutExampleWidget */ = {
+			isa = PBXGroup;
+			children = (
+				4ED8BB001DDE8E750005E7A4 /* HomeScreenShortCutExampleWidget.entitlements */,
+				4E20A68B1DDDC0F5007892CF /* TodayViewController.h */,
+				4E20A68C1DDDC0F5007892CF /* TodayViewController.m */,
+				4E20A68E1DDDC0F5007892CF /* MainInterface.storyboard */,
+				4E20A6911DDDC0F5007892CF /* Info.plist */,
+			);
+			path = HomeScreenShortCutExampleWidget;
+			sourceTree = "<group>";
+		};
 		4EE300D21DDC03EF0076DCC4 = {
 			isa = PBXGroup;
 			children = (
+				4E20A6671DDD5DA0007892CF /* FTImagePicker */,
 				4EE300DD1DDC03EF0076DCC4 /* HomeScreenShortCutExample */,
+				4E20A68A1DDDC0F5007892CF /* HomeScreenShortCutExampleWidget */,
+				4E20A6871DDDC0F5007892CF /* Frameworks */,
 				4EE300DC1DDC03EF0076DCC4 /* Products */,
+				4E20A67D1DDD678A007892CF /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,6 +166,7 @@
 			isa = PBXGroup;
 			children = (
 				4EE300DB1DDC03EF0076DCC4 /* HomeScreenShortCutExample.app */,
+				4E20A6861DDDC0F5007892CF /* HomeScreenShortCutExampleWidget.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,10 +174,13 @@
 		4EE300DD1DDC03EF0076DCC4 /* HomeScreenShortCutExample */ = {
 			isa = PBXGroup;
 			children = (
+				4ED8BB011DDE8ED10005E7A4 /* HomeScreenShortCutExample.entitlements */,
 				4EE300E11DDC03EF0076DCC4 /* AppDelegate.h */,
 				4EE300E21DDC03EF0076DCC4 /* AppDelegate.m */,
 				4EE300E41DDC03EF0076DCC4 /* ViewController.h */,
 				4EE300E51DDC03EF0076DCC4 /* ViewController.m */,
+				4E20A67F1DDD7A15007892CF /* DetailViewController.h */,
+				4E20A6801DDD7A15007892CF /* DetailViewController.m */,
 				4EE300E71DDC03EF0076DCC4 /* Main.storyboard */,
 				4EE300ED1DDC03EF0076DCC4 /* Assets.xcassets */,
 				4EE300EF1DDC03EF0076DCC4 /* LaunchScreen.storyboard */,
@@ -85,6 +202,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		4E20A6851DDDC0F5007892CF /* HomeScreenShortCutExampleWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E20A6971DDDC0F5007892CF /* Build configuration list for PBXNativeTarget "HomeScreenShortCutExampleWidget" */;
+			buildPhases = (
+				4E20A6821DDDC0F5007892CF /* Sources */,
+				4E20A6831DDDC0F5007892CF /* Frameworks */,
+				4E20A6841DDDC0F5007892CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HomeScreenShortCutExampleWidget;
+			productName = HomeScreenShortCutExampleWidget;
+			productReference = 4E20A6861DDDC0F5007892CF /* HomeScreenShortCutExampleWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		4EE300DA1DDC03EF0076DCC4 /* HomeScreenShortCutExample */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4EE300F51DDC03EF0076DCC4 /* Build configuration list for PBXNativeTarget "HomeScreenShortCutExample" */;
@@ -92,10 +226,12 @@
 				4EE300D71DDC03EF0076DCC4 /* Sources */,
 				4EE300D81DDC03EF0076DCC4 /* Frameworks */,
 				4EE300D91DDC03EF0076DCC4 /* Resources */,
+				4E20A6981DDDC0F5007892CF /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				4E20A6931DDDC0F5007892CF /* PBXTargetDependency */,
 			);
 			name = HomeScreenShortCutExample;
 			productName = HomeScreenShortCutExample;
@@ -111,10 +247,25 @@
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "fantagram Inc.";
 				TargetAttributes = {
+					4E20A6851DDDC0F5007892CF = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = A588LMT325;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
 					4EE300DA1DDC03EF0076DCC4 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = A588LMT325;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -132,17 +283,29 @@
 			projectRoot = "";
 			targets = (
 				4EE300DA1DDC03EF0076DCC4 /* HomeScreenShortCutExample */,
+				4E20A6851DDDC0F5007892CF /* HomeScreenShortCutExampleWidget */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		4E20A6841DDDC0F5007892CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E20A6901DDDC0F5007892CF /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4EE300D91DDC03EF0076DCC4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E20A67C1DDD5DA0007892CF /* WorkingProcess in Resources */,
 				4EE300F11DDC03EF0076DCC4 /* LaunchScreen.storyboard in Resources */,
+				4E20A67A1DDD5DA0007892CF /* FTImagePickerStoryBoard.storyboard in Resources */,
 				4EE300EE1DDC03EF0076DCC4 /* Assets.xcassets in Resources */,
+				4E20A6781DDD5DA0007892CF /* FTImagePickerAssets.xcassets in Resources */,
 				4EE300E91DDC03EF0076DCC4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -150,12 +313,26 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		4E20A6821DDDC0F5007892CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E20A68D1DDDC0F5007892CF /* TodayViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4EE300D71DDC03EF0076DCC4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E20A67B1DDD5DA0007892CF /* FTImagePickerViewController.m in Sources */,
+				4E20A6751DDD5DA0007892CF /* FTAlbumLIstViewController.m in Sources */,
+				4E20A6761DDD5DA0007892CF /* FTDetailView.m in Sources */,
 				4EE300E61DDC03EF0076DCC4 /* ViewController.m in Sources */,
+				4E20A6771DDD5DA0007892CF /* FTImagePicker.m in Sources */,
 				4EE300E31DDC03EF0076DCC4 /* AppDelegate.m in Sources */,
+				4E20A6811DDD7A15007892CF /* DetailViewController.m in Sources */,
+				4E20A6791DDD5DA0007892CF /* FTImagePickerCells.m in Sources */,
 				4EE300E01DDC03EF0076DCC4 /* main.m in Sources */,
 				4EE300EC1DDC03EF0076DCC4 /* HomeScreenShortCutExample.xcdatamodeld in Sources */,
 			);
@@ -163,7 +340,23 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		4E20A6931DDDC0F5007892CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E20A6851DDDC0F5007892CF /* HomeScreenShortCutExampleWidget */;
+			targetProxy = 4E20A6921DDDC0F5007892CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
+		4E20A68E1DDDC0F5007892CF /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E20A68F1DDDC0F5007892CF /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
 		4EE300E71DDC03EF0076DCC4 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -183,6 +376,36 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		4E20A6951DDDC0F5007892CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = HomeScreenShortCutExampleWidget/HomeScreenShortCutExampleWidget.entitlements;
+				DEVELOPMENT_TEAM = A588LMT325;
+				INFOPLIST_FILE = HomeScreenShortCutExampleWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fantagram.HomeScreenShortCutExample.HomeScreenShortCutExampleWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4E20A6961DDDC0F5007892CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = HomeScreenShortCutExampleWidget/HomeScreenShortCutExampleWidget.entitlements;
+				DEVELOPMENT_TEAM = A588LMT325;
+				INFOPLIST_FILE = HomeScreenShortCutExampleWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fantagram.HomeScreenShortCutExample.HomeScreenShortCutExampleWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		4EE300F31DDC03EF0076DCC4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -275,8 +498,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HomeScreenShortCutExample/HomeScreenShortCutExample.entitlements;
 				DEVELOPMENT_TEAM = A588LMT325;
 				INFOPLIST_FILE = HomeScreenShortCutExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fantagram.HomeScreenShortCutExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -287,8 +512,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HomeScreenShortCutExample/HomeScreenShortCutExample.entitlements;
 				DEVELOPMENT_TEAM = A588LMT325;
 				INFOPLIST_FILE = HomeScreenShortCutExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fantagram.HomeScreenShortCutExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -298,6 +525,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		4E20A6971DDDC0F5007892CF /* Build configuration list for PBXNativeTarget "HomeScreenShortCutExampleWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E20A6951DDDC0F5007892CF /* Debug */,
+				4E20A6961DDDC0F5007892CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4EE300D61DDC03EF0076DCC4 /* Build configuration list for PBXProject "HomeScreenShortCutExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -314,6 +550,7 @@
 				4EE300F71DDC03EF0076DCC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

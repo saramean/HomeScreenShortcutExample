@@ -9,9 +9,19 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>HomeScreenShortCutExampleWidget.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>4E20A6851DDDC0F5007892CF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>4EE300DA1DDC03EF0076DCC4</key>
 		<dict>
 			<key>primary</key>
